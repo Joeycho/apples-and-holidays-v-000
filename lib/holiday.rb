@@ -69,6 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts("#{holiday.to_s.capitalize}:")
       array.each do |supply|
       puts(" #{supply}")
+      end
     end
   end
 end
